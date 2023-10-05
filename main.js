@@ -5,8 +5,8 @@ const btnReset = document.querySelector("#btn-reset");
 const showHours = document.querySelector("#show-hours");
 const showMinutes = document.querySelector("#show-minutes");
 
-const soundPlay = new Audio('/sounds/play.wav');
-const soundStop = new Audio('/sounds/pause.mp3');
+const soundPlay = new Audio('./sounds/play.wav');
+const soundStop = new Audio('./sounds/pause.mp3');
 
 let miliseconds = 0;
 let seconds = 0 + "0";
@@ -39,9 +39,9 @@ function startWatch() {
 
 function resetWatch() {
     miliseconds = 0;
-    seconds = 0;
-    minutes = 0;
-    hours = 0;
+    seconds = 0 + "0";
+    minutes = 0 + "0";
+    hours = 0 + "0";
 }
 
 const count = () => {
