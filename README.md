@@ -8,7 +8,7 @@ The stopwatch is a site that has a start/pause and restart button, besides the s
 
 - `HTML`: HTML plays a key role for the structuring of the site and the buttons.
 - `CSS`: The CSS gives a more beautiful and modern look.
-- `JavaScript`: JavaScript implement the site sounds and the function of the conometro.
+- `JavaScript`: JavaScript implement the site sounds and the function of the StopWatch.
   - `querySelector`;
   - `document`;
   - `const`;
